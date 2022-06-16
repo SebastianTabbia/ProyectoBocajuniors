@@ -83,19 +83,19 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-.footer{
-height: 150px;
-background-color: #ffeb3b;
-margin-top: 30px;
-max-width: 100%;
+.footer {
+    height: 150px;
+    background-color: #ffeb3b;
+    margin-top: 30px;
+    max-width: 100%;
 }
 
-.iconos{
+.iconos {
     margin: 20px;
     font-size: 30px;
 }
 
-.iconos:hover{
+.iconos:hover {
     margin: 20px;
     font-size: 40px;
 }
@@ -127,4 +127,32 @@ max-width: 100%;
     align-items: center;
     justify-content: space-between;
     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+.main3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.parrafo {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.parrafo2 {
+    text-align: justify;
+    margin: 0 auto;
+    width: 70%;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
